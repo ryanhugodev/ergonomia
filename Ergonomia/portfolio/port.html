@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="port.css">
+<link rel="stylesheet" href="cards.css">
+</head>
+<body>
+    <header>
+        <div id="title">
+            <img class="logo-header" src="../logo_size.jpg" alt="Logotipo FGV Produções">
+        </div>
+
+        <ul class="ul-nav">
+            <a class="nav-a" href="../home/index.html"><li>Início</li></a>
+            <a class="nav-a" href="port.html"><li>Portfólio</li></a>
+            <a class="nav-a" href="#"><li>Contato</li></a>
+            <a class="nav-a" href="../login/login.html"><li>Login</li></a>
+            <a class="nav-a" href="../cadastro/cadastro.html" id="inscreva-se-btn"><li>Ainda não tem uma conta?</li></a>
+        </ul>
+    </header>
+    <script src="../app.js"></script>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+    <h2><span>Portfólio</span></h2>
+    <h2>2016 - 2022</h2>
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')" style="font-family: 'Poppins', sans-serif; color:white"> Todos</button>
+        <button class="btn" onclick="filterSelection('festas')" style="font-family: 'Poppins', sans-serif; color:white"> Festivais de Música</button>
+        <button class="btn" onclick="filterSelection('comites')" style="font-family: 'Poppins', sans-serif; color:white"> Comitês Particulares</button>
+        <button class="btn" onclick="filterSelection('casual')" style="font-family: 'Poppins', sans-serif; color:white"> Conferências Tecnólogicas</button>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+
+
+    <div class="row">
+        <div class="column festas">
+            <div class="card">
+                <ul class="ul">
+                    <li>
+                        <i class="bx bx-download"><img src="download-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="bx bx-local"><img src="local-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="info"><img src="info-icon.png" alt=""></i>
+                    </li>
+                </ul>
+                <img src="festa1.jpg" alt="">
+                <div class="con-text">
+                    <h3 class="h2-card">
+                        All Points East, 2022
+                    </h3>
+                    <p>
+                        All Points East é um festival anual de música realizado ao longo de dois fins de semana no Victoria Park de Londres, administrado pela FGV Produções.
+                        <button>
+                            Ver fotos
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="column festas">
+            <div class="card">
+                <ul class="ul">
+                    <li>
+                        <i class="bx bx-download"><img src="download-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="bx bx-local"><img src="local-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="info"><img src="info-icon.png" alt=""></i>
+                    </li>
+                </ul>
+                <img src="festa2.jpg" alt="">
+                <div class="con-text">
+                    <h3 class="h2-card">
+                        Mad Cool Festival, 2022
+                    </h3>
+                    <p>
+                        Mad Cool é um festival de música realizado anualmente em Madri, Espanha, desde 2016. Apresenta principalmente artistas de pop e rock.
+                        <button>
+                            Ver fotos
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column festas">
+            <div class="card">
+                <ul class="ul">
+                    <li>
+                        <i class="bx bx-download"><img src="download-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="bx bx-local"><img src="local-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="info"><img src="info-icon.png" alt=""></i>
+                    </li>
+                </ul>
+                <img src="festa3.jpg" alt="">
+                <div class="con-text">
+                    <h3 class="h2-card">
+                        Oktober Fest, 2020
+                    </h3>
+                    <p>
+                        A Oktoberfest é um festival de cerveja originado em Munique, Alemanha. Foi criado pelo rei bávaro Luís I para celebrar o seu casamento em 1810.
+                        <button>
+                            Ver fotos
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column comites">
+            <div class="card">
+                <ul class="ul">
+                    <li>
+                        <i class="bx bx-download"><img src="download-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="bx bx-local"><img src="local-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="info"><img src="info-icon.png" alt=""></i>
+                    </li>
+                </ul>
+                <img src="comitê1.jpg" alt="">
+                <div class="con-text">
+                    <h3 class="h2-card">
+                        Google, 2017
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab doloremque deleniti rerum optio, dolore labore accusantium in. Molestias amet, quos.
+                        <button>
+                            Ver fotos
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column comites">
+            <div class="card">
+                <ul class="ul">
+                    <li>
+                        <i class="bx bx-download"><img src="download-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="bx bx-local"><img src="local-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="info"><img src="info-icon.png" alt=""></i>
+                    </li>
+                </ul>
+                <img src="comitê2.jpg" alt="">
+                <div class="con-text">
+                    <h3 class="h2-card">
+                        Sapiens FGV, 2016
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab doloremque deleniti rerum optio, dolore labore accusantium in. Molestias amet, quos.
+                        <button>
+                            Ver fotos
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column comites">
+            <div class="card">
+                <ul class="ul">
+                    <li>
+                        <i class="bx bx-download"><img src="download-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="bx bx-local"><img src="local-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="info"><img src="info-icon.png" alt=""></i>
+                    </li>
+                </ul>
+                <img src="comitê3.jpg" alt="">
+                <div class="con-text">
+                    <h3 class="h2-card">
+                        Bauducco, 2019
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab doloremque deleniti rerum optio, dolore labore accusantium in. Molestias amet, quos.
+                        <button>
+                            Ver fotos
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column casual">
+            <div class="card">
+                <ul class="ul">
+                    <li>
+                        <i class="bx bx-download"><img src="download-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="bx bx-local"><img src="local-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="info"><img src="info-icon.png" alt=""></i>
+                    </li>
+                </ul>
+                <img src="conferencia1.jpg" alt="">
+                <div class="con-text">
+                    <h3 class="h2-card">
+                        Digital Enterprise Show, 2016
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab doloremque deleniti rerum optio, dolore labore accusantium in. Molestias amet, quos.
+                        <button>
+                            Ver fotos
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column casual">
+            <div class="card">
+                <ul class="ul">
+                    <li>
+                        <i class="bx bx-download"><img src="download-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="bx bx-local"><img src="local-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="info"><img src="info-icon.png" alt=""></i>
+                    </li>
+                </ul>
+                <img src="conferencia2.jpg" alt="">
+                <div class="con-text">
+                    <h3 class="h2-card">
+                        VidCon São Paulo, 2019
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab doloremque deleniti rerum optio, dolore labore accusantium in. Molestias amet, quos.
+                        <button>
+                            Ver fotos
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column casual">
+            <div class="card">
+                <ul class="ul">
+                    <li>
+                        <i class="bx bx-download"><img src="download-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="bx bx-local"><img src="local-icon.png" alt=""></i>
+                    </li>
+                    <li>
+                        <i class="info"><img src="info-icon.png" alt=""></i>
+                    </li>
+                </ul>
+                <img src="conferencia3.jpg" alt="">
+                <div class="con-text">
+                    <h3 class="h2-card">
+                        WomenTech Conference, 2018
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab doloremque deleniti rerum optio, dolore labore accusantium in. Molestias amet, quos.
+                        <button>
+                            Ver fotos
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>

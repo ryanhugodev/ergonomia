@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #13012b 0%, #271d31 46%, #3a0061 100%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    transition: .3s;
+    background-color: rgba(27, 15, 41, 0.267);
+}
+
+
+header.scrolled {
+    background-color: var(--bg-color-transparent);
+    box-shadow: 0 20px 20px 30px rgba(0, 0, 0, 0.1) ;
+    backdrop-filter: blur(100px);
+}
+
+
+.logo-header{
+    border-radius: 60px;
+    width: 60%;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.nav-a{
+    color: white;
+}
+
+a:hover{
+   color: rgb(132, 14, 201);
+}
+
+
+.port-btn{
+    background-color: rgb(132, 14, 201);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+}
+.port-btn:hover{
+    color: white;
+    background-color: rgb(95, 10, 145);
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+#inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+article img{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Poppins', sans-serif;;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
